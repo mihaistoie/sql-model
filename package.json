@@ -1,0 +1,29 @@
+{
+    "name": "sql-model",
+    "description": "Model",
+    "version": "0.0.1",
+    "author": "Mihai STOIE <mihaistoie@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "del": "latest",
+        "dts-bundle": "latest",
+        "gulp-sourcemaps": "latest",
+        "gulp-typescript": "latest",
+        "gulp-shell": "latest",
+        "run-sequence": "latest",
+        "merge2": "latest",
+        "mocha": "latest",
+        "typings": "latest",
+        "gulp": "latest",
+        "typescript": "next"
+    },
+    "main": "./index.js",
+    "typescript": {
+        "definition": "lib/definitions/sql-model.d.ts"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --timeout 30000 test/**/*.test.js"
+    }
+}
